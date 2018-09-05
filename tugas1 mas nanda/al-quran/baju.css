@@ -1,0 +1,78 @@
+.wrap{
+	background: blue;
+	width: 100%;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: silver;
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+ 
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: #b29e82;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+ 
+.badan{
+	height: 100%;
+	width: 100%;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #202323;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: gray;
+	float: left;
+	height: 100%;
+	width: 75%;
+}
+
+
+h3{
+	font-family: 'Amiri', serif;
+	text-align: center;
+}
+
+
+h1{
+	text-align: center;
+	font-family: 'Amiri', serif;
+}
+
+p{
+	text-align: center;
+	font-family: 'Amiri', serif;
+}
+
+p{
+	text-align: center;
+
+}
+
+img{
+	width: auto;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
